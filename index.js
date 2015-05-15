@@ -1,3 +1,5 @@
+require('pmx').init();
+
 var CronJob = require('cron').CronJob;
 
 new CronJob('*/5 * * * * *', function() {
